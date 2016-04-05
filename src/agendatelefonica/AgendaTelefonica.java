@@ -22,7 +22,7 @@ public class AgendaTelefonica {
         // TODO code application logic here
         Agenda a =null;
         try {
-            FileInputStream fis = new FileInputStream("agenda.txt");
+            FileInputStream fis = new FileInputStream("agendav01.txt");
             ObjectInputStream ois = new ObjectInputStream(fis);
             a =(Agenda) ois.readObject();
             ois.close();
